@@ -1,0 +1,4 @@
+[virtualenvs]
+create = true # create venv if non exists
+in-project = true # create the .venv in project folder
+parallel = true

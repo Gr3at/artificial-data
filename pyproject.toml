@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "artificial-data-generator"
+version = "v0.0.1"
+description = "An artificial data generator script"
+authors = ["gr3at"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "artificial_data_generator"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^2.2.2"
+numpy = "^1.26.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
